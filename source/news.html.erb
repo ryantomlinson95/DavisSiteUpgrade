@@ -1,0 +1,219 @@
+---
+title: Jim Davis - News
+layout: "navBar"
+---
+<!-- News Page. List of appointments, awards, publications, news articles,
+     tv promos, radio broadcasts, etc. associated with Dr. Davis' research in 
+     year order. Site-wide navigation bar at the top.-->
+
+<!-- Site-wide banner and "News" title -->
+<div class="banner center">
+    <div class="newsBanner">
+        <%= image_tag "bannerNews.jpg", :title => "University Hall"%>
+    </div>
+
+</div>
+<div class = "mainInfo center news">
+  <h3>News</h3>
+
+<!-- Collapsible list of news items listed by year. --> 
+<div class = "news">
+  <ul class="collapsibleList">
+    
+    <li>
+       	<label for="newsList2014">2014</label>
+	<input type="checkbox" id="newsList2014" />
+		<ul class= "ul1">
+		  <li>Workshop co-Chair, IEEE Conference on Computer Vision and Pattern Recognition (2014)</li>
+		</ul>
+    </li>
+    
+    <li>
+	<label for="newsList2013">2013</label>
+	<input type="checkbox" id="newsList2013" />
+		<ul class= "ul1">
+		  <li>Promoted to Full Professor, September 2013.</li>
+		  <li>Program co-Chair, Symposium on Frontiers of Motion Understanding (2013).</li>
+		</ul>
+    </li>
+
+    <li>
+	<label for="newsList2012">2012</label>
+	<input type="checkbox" id="newsList2012"/>
+		<ul class= "ul1">
+		  <li>Recipient of 2012 OSU College of Engineering Lumley Research Award.</li>
+		</ul>
+    </li>
+
+    <li>
+	<label for="newsList2010">2010</label>
+	<input type="checkbox" id ="newsList2010"/>
+		<ul class= "ul1">
+		<li>IEEE Computer Vision and Pattern Recognition Reviewer Award 2010.</li>
+		<li>CSE Teaching Award 2009-2010.</li>
+		<li>Co-Program Chair, IEEE International Conference on Advanced Video and Signal based Surveillance (Sept. 2010).</li>
+		</ul>
+    </li>
+
+    <li>
+	<label for="newsList2009">2009</label>
+	<input type="checkbox" id ="newsList2009"/>
+		<ul class= "ul1">
+		<li>Co-General Chair, IEEE Workshop on Motion and Video Computing (Dec. 2009).</li>
+		<li>iMix, Big10 TV Network, "Smart Surveillance" (initially aired 7/28/09) <%= link_to 'WWW', '/iMix.html'%></li>
+		<li>10TV news (CBS), "Smart Technology Being Used At Ohio State" (Aired 07/17/09) 
+		<%= link_to 'WWW', 'http://www.10tv.com/live/content/crimetracker10/stories/2009/07/17/story_osu_security.html?sid=102'%></li>
+		<li>MSNBC, Technology & Science, "Computer has eye for Suspicious Behavior" (January 26, 2009)
+		<%= link_to 'PDF (no pictures)', 'http://web.cse.ohio-state.edu/~jwdavis/Media/MSNBC-09.pdf'%>, <%= link_to 'WWW', 'http://www.msnbc.msn.com/id/28566179/'%></li>
+		<li>Columbus Dispatch, "Computers Might Spot People up to no Good" (January 24, 2009)
+		<%= link_to 'PDF', 'http://web.cse.ohio-state.edu/~jwdavis/Media/dispatch09.pdf'%>, <%= link_to 'WWW', 'http://dispatch.com/live/content/local_news/stories/2009/01/24/cameras.ART_ART_01-24-09_B4_5ICLMCL.html?sid=101'%></li>
+		</ul>
+    </li>
+
+    <li>	
+	  <label for="newsList2008">2008</label>
+	  <input type="checkbox" id ="newsList2008"/>
+		<ul class= "ul1">
+		<li>The Economist, Science & Technology section, "Surveillance Technology: If Looks Could Kill", October 23, 2008
+		<%= link_to 'PDF', 'http://web.cse.ohio-state.edu/~jwdavis/Media/TheEconomist08.pdf'%></li>
+		</ul>
+    </li>
+		 
+    <li>	
+	  <label for="newsList2007">2007</label>
+	  <input type="checkbox" id ="newsList2007"/>
+		<ul class= "ul1">
+		<li>OSU CSE Newletter, Focus on Research Article, "Jim Davis: Vision for the Future of Surveillance",  Autumn 2007, pages 2-3
+		<%= link_to 'PDF', 'http://web.cse.ohio-state.edu/~jwdavis/Media/jwdavis-research-cse-07.pdf'%></li>
+		
+		<li><span class ="frontline"><%= image_tag "frontline.jpg", :title => "Frontline" %></span>
+		Video clips of our research on tracking people in surveillance
+		videos shown in Frontline: "Spying on the Home Front" (Aired 05/15/07)
+		<%= link_to 'wmv video clip (no audio)', 'http://www.cse.ohio-state.edu/~jwdavis/Media/pbsFrontline-07.asx'%>,
+		<%= link_to 'credits', 'http://www.pbs.org/wgbh/pages/frontline/homefront/etc/credits.html'%></li>
+		<li>"Next Steps in Automatic Video Surveillance", invited seminar at ASIS International Annual Seminars and Exhibits, May 17, 2007 [<%= link_to 'ochure', 'http://web.cse.ohio-state.edu/~jwdavis/Media/ASE2007brochure.pdf'%>].</li> 
+
+		</ul>
+    </li>
+
+    <li>
+	<label for="newsList2006">2006</label>
+	<input type="checkbox" id ="newsList2006"/>
+	<ul class= "ul1">
+
+		<li>Co-Chair, for <%= link_to 'IEEE Workshop on
+		Object Tracking and Classification in and Beyond the Visible Spectrum', 'http://www.cse.ohio-state.edu/otcbvs/'%> (OTCBVS), June 22, 2006.</li>
+
+	</ul>
+    </li>
+
+	<li>
+	  <label for="newsList2005">2005</label>
+	  <input type="checkbox" id ="newsList2005"/>
+	<ul class= "ul1">
+		<li>Promotion to Associate Professor with Tenure (October 1, 2005).</li>
+		<li>Guest Editor (w/ Riad Hammoud) for CVIU Special Issue on 
+		Advances in Vision Algorithms and Systems Beyond the Visible Spectrum. 
+		[<%= link_to 'CALL FOR PAPERS', 'http://www.cse.ohio-state.edu/cviu-bvs'%>]</li>
+		<li>OSU News In Engineering Research Update article: 
+		"<%= link_to 'Advancing Technologies for Internet Video', 'http://web.cse.ohio-state.edu/~jwdavis/Media/NIE_77.1_Spring_2005.pdf'%>", 
+		Vol. 77, No. 1, Spring 2005.</li>
+		<li>Appointed as Associate Editor for Machine Vision and Applications journal (May 2005).</li> 
+		<li>OSU Alumni Magazine Research Report Article: <%= link_to 'Watch the Hands and Face', 'http://web.cse.ohio-state.edu/~jwdavis/Media/OSAM05.pdf'%>,  May/June, 2005, page 8.</li>
+		<li>Recipient of 2005 OSU College of Engineering Lumley Research Award.</li>
+		<li><%= link_to 'AAAS Science Update', 'http://www.scienceupdate.com/january05.html#050112'%> Radio Feature: "Internet Video: A new technology could make watching video on the Internet less frustrating" (January 12, 2005) [<%= link_to 'MP3 audio clip', 'http://web.cse.ohio-state.edu/~jwdavis/Media/16-InternetVideoStory.mp3'%>].</li>
+		<li>Benchmark and Website Chair for <a href="http://www.cse.ohio-state.edu/otcbvs/05/">IEEE Workshop on
+		Object Tracking and Classification in and Beyond the Visible Spectrum</a> (OTCBVS), June 20, 2005.</li>
+		<li>Call for participation in <%= link_to 'OTCBVS benchmark data collection', 'http://www.cse.ohio-state.edu/otcbvs-bench/'%>.</li>
+	</ul>
+	</li>
+
+    <li>
+	  <label for="newsList2004">2004</label>
+	  <input type="checkbox" id ="newsList2004"/>
+	<ul class= "ul1">
+		<li>ACM TechNews Feature "<%= link_to 'Researchers Find Way to Make Internet Video More Appealing', 'http://www.acm.org/technews/articles/2004-6/1222w.html'%>", Vol. 6, Issue 734, December 22, 2004 [<%= link_to 'PDF', 'http://web.cse.ohio-state.edu/~jwdavis/Media/ACMNewsService.pdf'%>].</li>
+		<li>OSU News Release (12/21/04): "<%= link_to 'Researchers find way to make internet video more appealing', 'http://researchnews.osu.edu/archive/facevid.htm'%>".</li>
+		<li>NSF ITR grant award ($1.3M) for proposal "Multi-Level, Active Attention Surveillance" (2004-2007).</li>
+		<li>"Detection and Recognition of Human Activity in Thermal Video", Presentation at U.S. Army Night Vision Laboratory,
+		Fort Belvoir, VA, June 28, 2004.</li>
+		<li> <span class ="FOX28logo"><%= image_tag "FOX28logo.gif", :title => "FOX28" %><%= image_tag "ABC6logo.gif", :title => "ABC6"%>
+		TV interview: "They're Watching You" (Aired 5/10/04).</span></li>
+		<li>"Video Surveillance of Tomorrow", invited seminar at ASIS International Annual Seminars and Exhibits, May 13, 2004 [<%= link_to 'brochure', 'http://web.cse.ohio-state.edu/~jwdavis/Media/ASE2004brochure.pdf'%>].</li>
+		<li>Interview in feature article, "<%= link_to 'HSARPA seeking video software technology to interpret complex surveillance stream', 'http://web.cse.ohio-state.edu/~jwdavis/Media/HSARPA.pdf'%>", Homeland Security & Defense, Vol. 3, No. 16, April 21, 2004.</li>
+		<li>"Representing and Recognizing Human Actions", Presentation at Robotics Institute, Carnegie Mellon University, March 26, 2004.</li>
+  	</ul>
+    </li>
+	
+    <li>
+	<label for="newsList2003">2003</label>
+	  <input type="checkbox" id ="newsList2003"/>
+	<ul class= "ul1">
+		<li>"Computer Recognition of Human Actions", Presentation at Siemens Corp., Princeton, NJ, Dec. 15, 2003.</li>
+		<li>"Computer Recognition of Human Actions", Presentation at Boston University, Oct. 30, 2003.</li>
+		<li>"Computer Recognition of Human Actions", Presentation at University of Illinois at Urbana-Champaign, Oct. 24, 2003.</li>
+		<li> Interview in Tech Now feature article, "<%= link_to 'Hot on Surveillance: Thermal technology grows in popularity, importance in post-911 world', 'http://web.cse.ohio-state.edu/~jwdavis/Media/busFirst03.pdf'%>", 
+		Columbus Business First, Vol. 20, No. 7, Oct. 17, 2003.</li>
+		<li>OSU News In Engineering article (and cover): 
+		"<%= link_to 'Future Innovators', 'http://www.eng.ohio-state.edu/nie/nie751/751_future_innovators.html'%>", 
+		Vol. 75, No. 1, Spring 2003.</li>
+		<li>OSU Lantern article: "<%= link_to 'Night Vision: 
+		Advanced thermal surveillance system used to identify and catalogue motion', 'http://web.cse.ohio-state.edu/~jwdavis/Media/lantern.pdf'%>" (5/12/03).</li>
+
+		
+		<li><em>TV Interviews: </em></li>
+		<li><span class ="FOX28logo"><%= image_tag "FOX28logo.gif", :title => "FOX28" %><%= image_tag "ABC6logo.gif", :title => "ABC6" %>
+		Fox-28/ABC-6 News (aired 05/09/03, 05/08/03)</span></li> 
+		<li>NBC-4 News (aired 05/09/03)</li> 
+		<li>CBS-10 News (aired 05/04/03)</li>
+		<li>Press Release (04/30/03): "Researcher developing video technology for surveillance: 
+		Cameras being trained to `see' people and recognize their activities"</li> 
+	
+		<li>Recipient of 2003 NSF Career Award (March 2003).</li>
+	    
+		</ul>
+		</li>	
+
+    
+    </ul>
+    </div>
+<!-- Footer with "Gem" copyright -->
+  <div id = "footer">&copy; Gem 2016</div>
+</div> 
+
+
+<!--
+This information was in the comments of the html of the original site, left as is.
+ 
+<FONT FACE="verdana, arial" SIZE="3"><B>Recent Speakers at OSU</B></FONT>
+
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0">
+<TR>
+<TD><FONT FACE="verdana, arial" SIZE="-1">
+<UL>
+<LI>Kevin Bowyer (ND), "Adventures in Three-Dimensional Face Recognition" (May 3, 2007)</LI>
+<LI>Yiannis Aloimonos (UMD),"HAL:  Human Activity Language" (Feb 8, 2007)</LI>
+<LI>Simon Baker (CMU), "Shape-From-Silhouette Across Time" (February 7, 2006)</LI>
+<LI>Stan Sclaroff (BU), "Computer Vision Techniques for Analysis of Human Gesture" (May 24, 2005)</LI>
+<LI>Robert Collins (CMU/PSU), "Topics in Automated Video Surveillance" (May 12, 2005)</LI>
+<LI>Bruce Flinchbaugh (TI), "Smart Camera Systems Technology Roadmap" (April 28, 2005)</LI>
+<LI>Fernando de la Torre (CMU), "Component Analysis for Multimodal Diaries" (April 26, 2005)</LI>
+<LI>Gerard Medioni (USC), "Tensor Voting Review, Applications to Computer Vision and Machine Learning" (April 7, 2005)</LI>
+<LI>Ben Shneiderman (UMD), "The Eyes Have It: User Interfaces for Information Visualization" (November 9, 2004)</LI> 
+<LI>Mubarak Shah (UCF), "Object Tracking" (October 13, 2004)</LI>
+<LI>Chris Bregler (NYU), "Capturing Muybridge, Kangaroos, and Cartoons" (April 16, 2004)</LI>
+<LI>Bir Bhanu (UC Riverside), "Biometrics for Human Identification" (March 12, 2004)</LI>
+<LI>Zoran Popovic (Univ. Washington), "Rapid Design of Realistic and Expressive Animations" (November 14, 2003)</LI>
+<LI>Irfan Essa (GaTech), "Analysis and Synthesis of Video for Special Effects and
+Animation" (October 3, 2003)</LI>
+<LI>Bruce Flinchbaugh (TI), "Introduction to Digital Video Systems" (August 29, 2003)</LI>
+<LI>Tom Huang (UIUC), "Relevance Feedback in Content-Based Image and Video Retrieval" (May 27, 2003)</LI>
+<LI>Jessica Hodgins (CMU), "Animating Human Characters" (April 25, 2003)</LI>
+<LI>Larry Davis (UMD), "Monitoring Human Activity using Computer Vision" (April 17, 2003)</LI>
+<LI>Jake Aggarwal (UT), "Human Motion: Tracking and Recognition of Actions and Interactions" (April 11, 2003)</LI>
+<LI>Norm Badler (UPenn), "Representing and Parameterizing Embodied Agent Behaviors" (March 14, 2003)</LI> 
+</UL>
+</TD>
+</TR>
+</TABLE>
+-->

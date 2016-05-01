@@ -1,0 +1,43 @@
+---
+title: Jim Davis - Contact
+layout: "navBar"
+---
+
+<!-- Banner with picture -->
+<div class="banner center">
+    <div class="contactBanner">
+        <%= image_tag "bannerContact.jpg" %>
+    </div>
+</div>
+
+<!-- Main Info -->
+<div class="mainInfo center">
+  <p>      
+
+    <!-- Present contact -->
+    <div class ="presentContact"><h3>Contact</h3>
+	  <ul>
+        <li>Office: 614-292-1553 (Lab: 614-292-5137)</li>
+        <li>Fax: 614-292-2911</li>
+        <li><%= mail_to 'jwdavis@cse.ohio-state.edu', "Email" %></li>
+      </ul>
+    </div>
+
+    <!-- Present location -->
+    <div class ="presentLocation"><br><h3>Office Location</h3>
+	  <ul>
+        <li>491 Dreese Laboratories</li>
+        <li>2015 Neil Avenue</li>
+        <li><%= link_to 'Ohio State University', 'http://www.osu.edu/' %></li>
+        <li>Columbus, OH 43210</li>
+      </ul>
+      <p class="largeButton">
+        <%= link_to "Directions",  "http://web.cse.ohio-state.edu/~jwdavis/directions.html" %>
+      </p>
+
+    </div>
+
+  <!-- Footer -->
+  <div id = "footer">&copy; Gem 2016</div>
+</div>
+
